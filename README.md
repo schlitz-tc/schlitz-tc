@@ -12,7 +12,7 @@ Schlitz-TC no és un sol programa: és un **conjunt de repositoris** que cobreix
 
 | Fase | Què fa | Repositori |
 |------|--------|------------|
-| **Descobriment** | Univers d'actius, filtres de mercat | market-atlas |
+| **Descobriment** | Univers d'actius, filtres de mercat (regió, país, mercat, categoria…) | market-atlas |
 | **Qualitat** | Screening i ràtios fonamentals | analisi-fonamental |
 | **Validació** | Walk-forward, ML/GA/RL/MC, GO/NO-GO | 3-5-7 ma2TS |
 | **Execució** | Edges actius, risc, ordres IBKR | TRWL (motor + control panel) |
@@ -91,7 +91,10 @@ L'unitat operativa és l'**edge** (estrategia + actiu + agent validats), no un p
 2. Arrenca l'ecosistema des de `dashboard/` → `./open-dashboard.sh`
 3. Obre http://localhost:5174/research
 
-Documentació operativa completa: manual hub a `dashboard/docs/MANUAL_ECOSISTEMA.md` (instal·lació, ports, pipeline, Live TRWL, resolució de problemes).
+Documentació operativa completa:
+
+- **Hub ecosistema:** `dashboard/docs/MANUAL_ECOSISTEMA.md` (instal·lació, ports, pipeline, Live TRWL)
+- **Filtres market-atlas (cascades UI):** `market-atlas/market-atlas/docs/FILTRES_UI_ECOSISTEMA.md`
 
 ---
 
@@ -101,4 +104,4 @@ Schlitz-TC és una **eina de recerca i enginyeria quantitativa**. No constitueix
 
 ---
 
-*Schlitz TC · maig 2026*
+*Schlitz TC · maig 2026 (documentació filtres UI alineada v1.3 hub)*
