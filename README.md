@@ -93,8 +93,9 @@ L'unitat operativa és l'**edge** (estrategia + actiu + agent validats), no un p
 
 Documentació operativa completa:
 
-- **Hub ecosistema:** `dashboard/docs/MANUAL_ECOSISTEMA.md` (instal·lació, ports, pipeline, Live TRWL)
+- **Hub ecosistema:** `dashboard/docs/MANUAL_ECOSISTEMA.md` (instal·lació, ports, pipeline, Live TRWL, selector proveïdor FMP)
 - **Filtres market-atlas (cascades UI):** `market-atlas/market-atlas/docs/FILTRES_UI_ECOSISTEMA.md`
+- **Analisi fonamental:** `analisi-fonamental/analisi-fonamental/MANUAL_INDICADORS.md` · FMP: `docs/analisi-fonamental-fmp-fallback.md` · Pipeline: `docs/analisi-fonamental-correccions-pipeline.md`
 
 ---
 
@@ -104,4 +105,4 @@ Schlitz-TC és una **eina de recerca i enginyeria quantitativa**. No constitueix
 
 ---
 
-*Schlitz TC · maig 2026 (documentació filtres UI alineada v1.3 hub)*
+*Schlitz TC · maig 2026 (hub v1.4 — FMP analisi-fonamental i correccions pipeline)*
