@@ -62,10 +62,10 @@ Configures filtres, executes el discovery des del dashboard i obtens experiments
 Walk-forward analysis, agents ML/GA/RL/Monte Carlo i decisions GO/NO-GO explícites. No es confon backtest amb evidència: el que arriba a live ha passat criteris mesurables.
 
 **3. Execució — edges, no intuïció**  
-L'unitat operativa és l'**edge** (estrategia + actiu + agent validats), no un portafoli genèric. Un compte, diversos edges actius, risc agregat i perfils conservadors (p. ex. regla 3-5-7) quan cal.
+L'unitat operativa és l'**edge** (estrategia + actiu + agent validats), no un portafoli genèric. Un compte, diversos edges actius, risc agregat i perfils conservadors (p. ex. regla 3-5-7). Equity curve i **informe de rendiment HTML** (KPIs, drawdown, mètriques per edge) accessibles des del dashboard Live i el TRWL Control Panel.
 
 **4. Operació — una porta d'entrada, dues modes**  
-**Research Lab** per descobrir i validar; **Live Trading** per veure equity, risc i posicions en temps real. L'operativa completa (ordres, journal, comandes al motor) viu al TRWL Control Panel; el dashboard Live és el resum executiu.
+**Research Lab** per descobrir i validar; **Live Trading** per veure equity, snapshot del darrer cicle, informe de rendiment, risc i posicions en temps real. L'operativa completa (ordres, journal, comandes al motor) viu al TRWL Control Panel; el dashboard Live és el resum executiu.
 
 ---
 
@@ -93,7 +93,9 @@ L'unitat operativa és l'**edge** (estrategia + actiu + agent validats), no un p
 
 Documentació operativa completa:
 
-- **Hub ecosistema:** `dashboard/docs/MANUAL_ECOSISTEMA.md` (instal·lació, ports, pipeline, Live TRWL, selector proveïdor FMP)
+- **Hub ecosistema:** `dashboard/docs/MANUAL_ECOSISTEMA.md` (v2.0 — instal·lació, ports, pipeline, Live TRWL, informe de rendiment)
+- **TRWL (cicle, equity, informe):** `dashboard/docs/TRWL FUNCIONAMENT.md`
+- **Motor TRWL:** `TRWL/TRWL-motor/TRWL-motor/docs/MANUAL_TRWL.md` (v2.0)
 - **Filtres market-atlas (cascades UI):** `market-atlas/market-atlas/docs/FILTRES_UI_ECOSISTEMA.md`
 - **Analisi fonamental:** `analisi-fonamental/analisi-fonamental/MANUAL_INDICADORS.md` · FMP: `docs/analisi-fonamental-fmp-fallback.md` · Pipeline: `docs/analisi-fonamental-correccions-pipeline.md`
 
@@ -105,4 +107,4 @@ Schlitz-TC és una **eina de recerca i enginyeria quantitativa**. No constitueix
 
 ---
 
-*Schlitz TC · maig 2026 (hub v1.4 — FMP analisi-fonamental i correccions pipeline)*
+*Schlitz TC · juliol 2026 (hub v2.0 — TRWL Performance Report v2.2)*
